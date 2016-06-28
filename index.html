@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>DevOps practices for DBA</title>
+		<meta charset="utf-8" />
+        <meta name="description" content="A collection of practices, tools and techniques to enable the DBA team to be part of the development and operations team. An essential practice to enable the practice of DevOps" />
+        <meta name="keywords" content="evolutionary database, refactoring, devops, rdbms, ci, cd, dba, oracle, mssql, mysql, postgresql, agile dba, database, agile database, agile data" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		  ga('create', 'UA-65529287-1', 'auto');
+		  ga('send', 'pageview');
+		</script>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<!-- <span class="image avatar"><img src="images/avatar.jpg" alt="" /></span> -->
+					<h1 id="logo"><a href="#">DevOps for DBA</a></h1>
+					<p>DevOps practices for the DBA. Tools, Techniques and Practices as they apply to the DBA and the DATA team</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one">About</a></li>
+						<li><a href="#two">Development</a></li>
+						<li><a href="#three">Testing</a></li>
+						<li><a href="#four">Collaboration</a></li>
+						<li><a href="#five">Deployment</a></li>
+						<li><a href="#six">Related</a></li>
+						<li><a href="#seven">Contact</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="https://twitter.com/pramodsadalage" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/pramodsadalage" class="icon fa-github"><span class="label">Github</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="container">
+										<h2>DevOps for DBA</h2>
+										<p><a href="https://en.wikipedia.org/wiki/DevOps">DevOps</a> practices have changed the way development and operations teams interact</p>
+										<p>One definition of DevOps is that <blockquote>DevOps is a cross-disciplinary community of practice dedicated to the study of building, evolving and operating rapidly-changing resilient systems at scale.</blockquote>
+										In other words DevOps is improved collaboration between Software Development, QA, IT Operations and services. DevOps helps an organization towards their path to enable <a href="http://continuousdelivery.com/">Continuous Delivery</a><p/>
+										<p>DevOps practices for DBA and Data Team focus on the Tools, practices and techniques that are useful for the Data team to use for <b>Development</b> activities, <b>Testing</b> setup and execution, <b>Collaboration</b> techniques and <b>Deployment</b> tools and techniques. The aim of this site is to further the practice and help the DBA's and Data team to use these practices to become productive and become part of the delivery team and embrace the devops movement.
+										</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="container">
+									<h3>Development Practices</h3>
+									<p>Practices that the DBA can use during development activities. Practices such as </p>
+									<ul class="feature-icons">
+										<li class="fa-git">Version control all code</li>
+										<li class="fa-cubes">Database sandbox for everyone</li>
+										<li class="fa-database">Refactor databases</li>
+										<li class="fa-cogs">Automate creation of database sandbox</li>
+										<li class="fa-bug">Test database model behavior</li>
+										<li class="fa-bars">Conventions in naming objects</li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="container">
+									<h3>Testing practices</h3>
+									<p>Practices that the DBA can use during testing activities. Testing of the database components as well as supporting the team and business during application testing</p>
+									<div class="features">
+										<ul class="feature-icons">
+										<li class="fa-wrench">Use DBUnit</li>
+										<li class="fa-search-plus">Automate finding unused columns/tables</li>
+										<li class="fa-check">Automate data validation</li><li class="fa-user-secret">Automate Production data obfuscate for testing</li>
+									</ul>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="four">
+								<div class="container">
+									<h3>Collaboration Practices</h3>
+									<p>Many times DBA is part of a central team and are assigned to project teams in time slices and it becomes hard for the development team to collaborate with the DBA and vice versa. These practices help the DBA and the team collaborate</p>
+								<div class="features">
+										<ul class="feature-icons">
+										<li class="fa-group">Pair with developers</li>
+										<li class="fa-file-code-o">Publish data dictionary</li>
+										</ul>
+									</div>
+								</div>
+							</section>
+						<!-- Five -->
+							<section id="five">
+								<div class="container">
+									<h3>Deployment Practices</h3>
+									<p>During deployment, automating the deployment process, just like how the application is automated, enables the team to not be dependent. These practices also help the team to adapt easily to changing frequencies of software release cycles. Some of the practices are</p>
+								<div class="features">
+										<ul class="feature-icons">
+										<li class="fa-paper-plane">Use Flyway for migrations</li>
+										<li class="fa-hdd-o">Automate physical tablespace placement</li>
+										<li class="fa-code">Use tools to manage database migration</li>
+										<li class="fa-cube">Use DBDeploy for migrations</li>
+										</ul>
+									</div>
+								</div>
+							</section>
+							<!-- six -->
+							<section id="six">
+								<div class="container">
+									<h3>Related content</h3>
+									<div>
+									<p><a href="http://www.amazon.com/gp/product/0321774515/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0321774515&amp;linkCode=as2&amp;tag=passionaboutd-20" class="image left"> <img src="images/refactoringdatabases.jpg" alt="" /></a>Refactoring Databases: Evolutionary Database Design: Refactoring has proven its value in a wide range of development projects—helping software professionals improve system designs, maintainability, extensibility, and performance. Refactoring Databases introduces powerful refactoring techniques specifically designed for database systems.
+									It demonstrates how small changes to table structures, data, stored procedures, and triggers can significantly enhance virtually any database design without changing semantics. How to evolve database schemas in step with source code and become far more effective in projects relying on iterative, agile methodologies.</p>
+									<p>
+									<a href="http://www.amazon.com/gp/product/B000RH0EI4/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B000RH0EI4&amp;linkCode=as2&amp;tag=passionaboutd-20" class="image right"><img src="images/rcdi.jpg" alt=""/></a>Recipes for Continuous Database Integration: Continuous Integration changed the way software is written. Why not extend and make the database part of the same Continuous Integration cycle so that you can see integrated results of your application as well as your database?</p>
+									</div>
+								<div class="container">
+									<h3>Related Tools</h3>
+									<p>Here are some of the open source as well as commercial tools, that enable DevOps for databases</p>
+										<div class="features">
+											<ul class="feature-icons">
+											<li class="fa-paper-plane"><a href="http://flywaydb.org/">Flyway</a></li>
+											<li class="fa-hdd-o"><a href="http://www.liquibase.org/">Liquibase</a></li>
+											<li class="fa-cube"><a href="http://dbunit.sourceforge.net/">DBUnit</a></li>
+											<li class="fa-barcode"><a href="http://jailer.sourceforge.net/">Jailer</a></li>
+											<li class="fa-copy"><a href="http://www.diffkit.org/">DiffKit</a></li>
+											<li class="fa-qrcode"><a href="https://github.com/sunitparekh/data-anonymization">Data Anonymization</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</section>
+							<!-- seven -->
+							<section id="seven">
+								<div class="container">
+									<h3>Contact</h3>
+									<p>This site is maintained by <a href="http://sadalage.com">Pramod Sadalage</a>. Pramod Sadalage is principal consultant at <a href="http://thoughtworks.com">ThoughtWorks</a> where he enjoys the rare role of bridging the divide between database professionals and application developers. He is usually sent in to clients with particularly challenging data needs, which require new technologies and techniques. In the early 00’s he developed techniques to allow relational databases to be designed in an evolutionary manner based on version-controlled schema migrations. He is the co-author of Refactoring Databases, co-author of NoSQL Distilled, author of Recipes for Continuous Database Integration and continues to speak and write about the insights he and his clients learn.
+								</div>
+							</section>
+					</div>
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Pramod Sadalage. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
